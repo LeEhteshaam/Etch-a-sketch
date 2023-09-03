@@ -1,0 +1,163 @@
+* {
+    background-color: #F1D5D4;
+}
+
+.title {
+    margin-top: 100px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    background-color: var(--secondary-light);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px;
+    text-align: center;
+}
+
+.boardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+   text-align: center;
+   margin-top: 25px;
+   font-family: 'Inter Tight', sans-serif;
+} 
+
+.buttons > button {
+    margin-left: 10px;
+}
+
+#black {
+    border: 1px solid black;  
+    width: 70px;  
+    height: 30px;  
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+#black:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;  
+    border-radius:1px;
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transform: scale(1.2);
+}
+
+#rainbow {
+    border: 1px solid black;      
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+#rainbow:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;  
+    border-radius:1px;
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transform: scale(1.2);
+}
+.userInput {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+
+.userInput > button, input {
+    margin-left: 10px;
+}
+
+#inputBar {
+    border: 1px solid black;  
+    background-color: white;
+}
+
+#enterButton {
+    border: 1px solid black;  
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+#eraser:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;  
+    border-radius:1px;
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transform: scale(1.2);
+}
+#eraser {
+    border: 1px solid black;  
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+#reset:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;  
+    border-radius:1px;
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transform: scale(1.2);
+}
+
+#reset {
+    border: 1px solid black;  
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+#enterButton:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;  
+    width: 70px;  
+    height: 30px;   
+    border-radius: 10%;
+    transform: scale(1.2);
+}
+
+.creator {
+    margin-top:100px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+}
+
+.colorContainer {
+    display: flex;
+    justify-content: center;
+} 
+
+#colorPicker {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+
